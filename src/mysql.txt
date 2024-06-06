@@ -1,0 +1,9 @@
+
+create database mev_price_monitor;
+create user 'mev_price_monitor'@'localhost' identified by 'mev_price_monitor';
+ALTER USER 'mev_price_monitor'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mev_price_monitor';
+grant all on mev_price_monitor.* to 'mev_price_monitor'@'localhost';
+
+mysql mev_price_monitor -u mev_price_monitor --password=mev_price_monitor
+
+

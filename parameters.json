@@ -1,0 +1,5 @@
+{
+        "ETHERSCAN_KEY_FILE": "~/git/mev_price_monitor/keys/etherscan.sec",
+	"DB_SERVER": "rsynergy2_sqlconnect",
+	"EMA_alpha": 0.2
+}
